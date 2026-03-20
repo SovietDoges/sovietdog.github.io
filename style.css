@@ -65,6 +65,15 @@ h2 {
     background-color: black;
 }
 
+.catalogP {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background-color: black;
+}
+
 .container {
     width: 1250px;
     margin: 0 auto;
@@ -116,6 +125,48 @@ h2 {
     height: 250px;
     height: 250px;
     margin-top: 10px;
+}
+
+.container-index {
+    width: 1250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+h4 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.container-grid-partners {
+    display: grid;
+    grid-template-columns: 150px; /* pro dalšího partnera sem přidat hodnotu 150px */
+    grid-template-rows: 200px;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.palominobox {
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.zmgbox {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    margin-top: 20px;
 }
 
 /* footer main */ 
